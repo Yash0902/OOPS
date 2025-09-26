@@ -358,19 +358,126 @@
 // }
 
 // on keyword (Type Restriction)
-mixin fly on A{
-    void flyer(){
-      print("flyyying...");
-    }
-}
-class B{
+// mixin fly on A{
+//     void flyer(){
+//       print("flyyying...");
+//     }
+// }
+// class B{
+//
+// }
+// class A{
+//
+// }
+// void main(){
+//
+//
+// }
+//
 
-}
-class A{
+// getter and setter
+// void main(){
+//   var  e = Example();
+//   e.setter = 100;
+//   print(e._balance);
+// }
+//
+// class Example{
+//   int _balance = 0;
+//
+//
+//   int get balance => _balance;
+//
+//   set setter(int value){
+//     if(value > 0){
+//
+//     }
+//
+//   }
+//
+// }
 
-}
-void main(){
+// static
+
+// class Student {
+//
+//   int totalStudents = 0;
+//   String name;
+//   Student(this.name) {
+//     totalStudents++;
+//   }
+//
+//
+//    void showTotal() {
+//     print("Total students: $totalStudents");
+//   }
+// }
+//
+// void main() {
+//   var s1 = Student("Aman");
+//   var s2 = Student("Neha");
+//   var s3 = Student("Ravi");
+//   s1.showTotal();
+//   print(s1.totalStudents);
+// }
 
 
-}
+// class Example{
+//   String name;
+//   static int total = 0;
+//   Example(this.name){
+//     total++;
+//   }
+//   static showtotal(){
+//     print(total);
+//   }
+// }
+// void main(){
+//   var e = Example("yash");
+//   var e1 = Example("rahul");
+//   var e2 = Example("amit");
+//   print(Example.total);
+//
+// }
+
+// factory constructor
+
+// class Logger {
+//
+//   static final Logger _instance = Logger._internal();
+//
+//
+//   Logger._internal();
+//
+//   factory Logger() {
+//     return _instance;
+//   }
+//
+//   void log(String msg) => print(msg);
+// }
+//
+// void main() {
+//   var l1 = Logger();
+//   var l2 = Logger();
+//
+//
+//   print(identical(l1, l2));
+// }
+//
+
+// void main(){
+//  var e = Example();
+//  Example.guest(30);
+// }
+//
+// class Example{
+//   int value = 0;
+//   Example(){
+//      print(value+1);
+//   }
+//
+//   Example.guest(this.value){
+//     print(value+1);
+//   }
+// }
 
